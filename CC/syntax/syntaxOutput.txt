@@ -1,0 +1,37 @@
+S
+    STATEMENTS
+    FUNCTION_CALL
+    FUNCTION_DEF
+        }
+        STATEMENTS
+            STATEMENTS_TAIL
+            STATEMENT
+                STATEMENT
+                    STATEMENT
+                        ;
+                        ) (Value: ))
+                        EXPRESSION
+                        ( (Value: ()
+                        IDENTIFIER (Value: iden)
+                    VARIABLE_DEF
+                        ; (Value: ;)
+                        VARIABLE_TAIL
+                            EXPRESSION
+                                INT_DATATYPE (Value: 12)
+                            AP (Value: =)
+                        IDENTIFIER (Value: num2)
+                        VARIABLE_KEY (Value: let)
+                VARIABLE_DEF
+                    ; (Value: ;)
+                    VARIABLE_TAIL
+                        EXPRESSION
+                            INT_DATATYPE (Value: 10)
+                        AP (Value: =)
+                    IDENTIFIER (Value: num1)
+                    VARIABLE_KEY (Value: let)
+        { (Value: {)
+        ) (Value: ))
+        PARAMS
+        ( (Value: ()
+        IDENTIFIER (Value: iden)
+        FUNCTION (Value: create)

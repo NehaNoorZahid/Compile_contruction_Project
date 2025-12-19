@@ -1,0 +1,34 @@
+
+class MyClass {
+    int count = 5;            
+    float temperature = 36.6;  
+    char initial = 'M';        
+    string greeting = "Hello"; 
+
+    void incrementCount() {
+        if (count < 10) {      
+            count++;           
+        } else {            
+            count--;           
+        }
+    }
+
+    void display() {
+        while (count > 0) {    
+            print(greeting);    
+            count--;           
+        }
+    }
+
+}
+
+// Inherited class demonstration
+class DerivedClass : public MyClass {  // AM
+    void anotherMethod() {
+        for (int i = 0; i < count; i++) { 
+            if (i % 2 == 0) {           
+                continue;              
+            }
+        }
+    }
+}
